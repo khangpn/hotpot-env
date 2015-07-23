@@ -11,3 +11,4 @@ include_recipe "nodejs::nodejs_from_source"
 include_recipe "nodejs::npm"
 
 nodejs_npm "express"
+nodejs_npm "express-generator"
